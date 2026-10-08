@@ -1,0 +1,12 @@
+Survey Details:
+
+NOTE: Fictional demo data. The comments are invented and do not come from real customers.
+
+Company: Auctum Solutions AB (auctum.se)
+Product: Auctum, an all-in-one accounting and business system (SaaS) for freelancers, small businesses and accounting firms
+Method: In-app feedback widget and customer interviews
+Respondents: 40 (freelancers, small business owners, accounting firm staff)
+Markets: Sweden (34 respondents), Norway (6 respondents)
+Date: 2026-09-30
+
+Project lead: Thomas Ochman

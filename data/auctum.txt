@@ -1,0 +1,61 @@
+Sending my first invoice took less than five minutes
+I love that a quote turns into an order and then an invoice without retyping anything
+The invoice templates look professional but I wish I could move the logo
+Recurring invoices would save me a lot of time every month
+Customers keep asking for an OCR number on the invoice and I can't find where to add it
+Reminders for overdue invoices are sent automatically, which means I stop chasing payments
+The AI reads my supplier invoices surprisingly well
+The AI picked the wrong VAT rate on a restaurant receipt and I only noticed later
+I like that I always get to approve what the AI suggests before it is booked
+Snapping a photo of a receipt in the app and having it filed is magic
+Processing a batch of supplier invoices is slow when there are more than twenty
+It is not clear why some documents are classified as contracts instead of invoices
+Logging in with BankID is fast and feels secure
+Signing quotes with BankID directly in Auctum closed two deals faster for us
+Customers without BankID found the signing link confusing
+My accountant can see everything in real time, no more emailing Excel files
+Our accounting firm still asks for a SIE export because they use another system
+Inviting my accountant took one click
+The VAT return was prepared for me and I just had to check and submit it
+I was nervous about submitting to Skatteverket from a new system but it worked perfectly
+The employer declaration for payroll went straight to Skatteverket without problems
+Payroll is easy for my two employees but I miss support for collective agreements
+Calculating holiday pay was confusing and I had to call support
+Locked periods give me peace of mind that nothing changes after closing
+I can't figure out how to correct a booking in a locked period
+The year-end closing guide was a lifesaver for a first-time business owner
+Reports are clear but I want to export the profit and loss statement to Excel
+Asking "how much did we spend on travel this quarter" and getting an answer is brilliant
+The AI assistant sometimes gives answers that do not match the report figures
+Pay per use is perfect for a small business like mine
+9 kronor per invoice adds up quickly once you send a few hundred a month
+It is hard to predict my monthly cost with all the per-use fees
+Pricing per organisation instead of per user is fair since my whole team can log in
+Being able to switch modules on and off without a contract is great
+The free plan was enough to try everything before committing
+Onboarding was smooth and the setup wizard asked just the right questions
+Importing my customers from Fortnox took a whole afternoon
+Moving my old bookkeeping history over was not possible, so I run two systems this year
+There is no automatic bank feed from my bank, I have to upload files manually
+Payment matching against the bank works well when the reference is correct
+The time tracking module makes it easy to invoice hours per project
+I would like to see project profitability with costs included, not just hours
+The inventory module is basic but enough for our small webshop
+Stock levels don't sync with our Shopify store
+The app is fast and the interface is clean
+Some screens are cluttered with too many buttons
+The dark theme is easy on the eyes when I do bookkeeping late at night
+The mobile app is great for receipts but I can't create invoices on my phone
+Some menus are still in Swedish even when I choose English
+Running both our Swedish and Norwegian companies in one place is a big plus
+Support replied within an hour and solved my problem
+I waited three days for an answer about a payroll question
+The help center articles are short and to the point
+I wish there were video guides for the more complex features
+Knowing my data is stored in the EU matters a lot to my clients
+The system was down for an hour on the last day before the VAT deadline
+Exporting all my data is easy, so I don't feel locked in
+I have recommended Auctum to three other freelancers in my network
+The lunch place next to our office has gotten really expensive
+My kids think the dark theme looks cool but that is not why I use it
+Our office moved to Malmö last spring

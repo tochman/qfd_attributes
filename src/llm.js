@@ -13,8 +13,10 @@ if (!LLM_MODEL || (!isClaude && !LLM_BASE_URL)) {
   throw new Error("Set LLM_MODEL (and LLM_BASE_URL for non-Claude models), see .env.example.");
 }
 
+const { ANTHROPIC_WORKSPACE_ID } = process.env;
 const client = isClaude
-  ? new Anthropic()
+  ? // Keys not scoped to a workspace must name one per request.
+    new Anthropic(ANTHROPIC_WORKSPACE_ID ? { defaultHeaders: { "anthropic-workspace-id": ANTHROPIC_WORKSPACE_ID } } : {})
   : new OpenAI({ baseURL: LLM_BASE_URL, apiKey: LLM_API_KEY || "none" });
 
 // Returns the model's raw JSON text for `prompt`.
@@ -62,7 +64,10 @@ export async function askJson(prompt, schema, retries = 5) {
       await writeFile(file, text);
       return data;
     } catch (err) {
-      if (attempt >= retries) {
+      // 4xx other than 429 (bad key, bad request) won't fix itself: fail now.
+      const fatal = err.status >= 400 && err.status < 500 && err.status !== 429;
+      if (fatal || attempt >= retries) {
+        if (fatal) console.error(`  ${err.error?.error?.message ?? err.message}`);
         if (err.status === 429)
           console.error("  Still rate limited. Gemini free tier has a per-model daily quota; switch LLM_MODEL or wait. Finished steps are cached in .cache/.");
         throw err;
@@ -70,7 +75,7 @@ export async function askJson(prompt, schema, retries = 5) {
       // Free-tier quotas are per minute: on 429 wait out the window.
       const wait = err.status === 429 ? 60_000 : 2000 * 2 ** attempt;
       console.warn(
-        `  LLM call failed (${err.message.slice(0, 120)}), retry ${attempt}/${retries - 1} in ${wait / 1000}s`,
+        `  LLM call failed (${(err.error?.error?.message ?? err.message).slice(0, 300)}), retry ${attempt}/${retries - 1} in ${wait / 1000}s`,
       );
       await sleep(wait);
     }

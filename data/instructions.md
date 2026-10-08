@@ -1,6 +1,6 @@
 # Running the sample data sets
 
-There are three data sets. Each has a statements file (one statement per line) and a details file
+There are four data sets. Each has a statements file (one statement per line) and a details file
 (company, respondents, date, project lead). Run the commands from the project root after setting up
 `.env` (see the main README). Each run writes `report.html` and `attributes.json` into its `--out` folder.
 
@@ -23,6 +23,16 @@ npm start -- --domain "Workplace Environment and Employee Wellbeing" --input dat
 ```
 
 The prompts are in English, so this report comes out in English even though the statements are Swedish.
+
+## 4. Auctum SaaS demo (Auctum Solutions AB, 61 statements, English, fictional)
+
+```bash
+npm start -- --domain "Accounting and Business Software (SaaS)" --input data/auctum.txt --details data/auctum_details.txt --out out/auctum
+```
+
+Invented comments for demos, covering invoicing, AI document handling, BankID, VAT and payroll filing,
+accountant collaboration, pricing, onboarding, the mobile app and support. Three comments are off-topic
+on purpose (lunch prices, kids, office move) so the demo shows the relevance filter dropping them.
 
 ## Notes
 

@@ -1,0 +1,21 @@
+{
+  "name": "qfd_attributes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "qfd": "src/index.js"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "openai": "^4.0.0",
+    "zod": "^3.23.0"
+  }
+}
